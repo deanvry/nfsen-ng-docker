@@ -23,6 +23,7 @@ Docker setup for running nfsen-ng (Netflow visualizer) and nfdump (Netflow/Sflow
 ## Tested with:
 - Arista EOS 4.23.3M (in Jan 2021)
 - Ubiquiti EdgeRouter™ X
+- MikroTik RouterOS v6.48.6 long-term
 
 ## An issue ?
 
