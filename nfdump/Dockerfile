@@ -1,9 +1,10 @@
-FROM debian:11
+FROM debian:bullseye-backports
 
-RUN apt update \
-    && apt install -y nfdump \
-    && apt-get install -y nfdump-sflow \
-    && apt install -y procps
+RUN apt update && \
+    apt install -t bullseye-backports -y \
+    nfdump \
+    nfdump-sflow \
+    procps
 
 WORKDIR /app
 COPY entrypoint.sh .
