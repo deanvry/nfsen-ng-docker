@@ -2,7 +2,7 @@
 
 Docker setup for running nfsen-ng (Netflow visualizer) and nfdump (Netflow/Sflow collector) together with support for mutiple sources.
 
-[Graphs](graphs.png)
+![Graphs](graphs.png)
 
 ## Installation
 
