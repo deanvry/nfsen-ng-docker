@@ -7,11 +7,11 @@ services:
     volumes:
     - ./profiles-data:/var/nfdump/profiles-data
     - ./sources.conf:/tmp/sources.conf:ro
-    restart: unless-stopped  
+    restart: unless-stopped
   nfdump:
     build: nfdump
     ports:
-    - 9001:9001/udp
+    - 9000-9001:9000-9001/udp
     volumes:
     - ./profiles-data:/data
     - ./sources.conf:/tmp/sources.conf:ro
